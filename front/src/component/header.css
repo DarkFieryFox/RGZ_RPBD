@@ -1,0 +1,44 @@
+.header-outer {
+    background-color: rgba(5, 25, 112, 0.85);
+    position: sticky;
+    top: 0;
+    box-shadow: 0 5px 30px rgba(7, 3, 3, 0.98), inset 0 5px 5px rgba(245, 241, 241, 0.93);
+
+}
+
+.header {
+    height: 50px;
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.header__title {
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.header__line {
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 80%;
+    width: 6px;
+}
+
+
+.header__links {
+    display: flex;
+    gap: 55px;
+}
+
+.header__link {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 50px rgba(7, 3, 3, 0.98), inset 0 5px 5px rgba(245, 241, 241, 0.93);
+    line-height: 40px;
+    width: 150px;
+}
